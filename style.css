@@ -1,0 +1,59 @@
+.navbar {
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.app-image .img-responsive {
+  height: 200px;
+}
+
+.app-container {
+  margin: 36px 0;
+}
+
+.app-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon {
+  margin: 12px;
+  height: 36px;
+}
+
+.skills {
+  padding: 60px;
+}
+
+h2 {
+  margin: 36px 0;
+  font-size: 3em;
+}
+
+.skill {
+  height: 60px;
+  margin: 0 20px;
+}
+
+.contact {
+  padding: 36px;
+}
+
+.contact p {
+  font-size: 2em;
+}
+
+footer {
+  background-color: #f8f8f8;
+  padding: 26px;
+}
+
+footer p {
+  font-size: 1.75em;
+}
