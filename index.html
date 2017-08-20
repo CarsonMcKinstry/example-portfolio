@@ -3,33 +3,35 @@
 
 <head>
     <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name='viewport' content='width=device-width, intitial-scale=1.0'>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
 </head>
 
 <body>
-
 
     <nav class="navbar navbar-default">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-                <a class="navbar-brand" href="#">Carson McKinstry dot Com</a>
+                <a class="navbar-brand" href="#">Carson McKinstry dot com</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="navbar">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -40,80 +42,93 @@
     <div class="jumbotron">
         <div class="container">
             <h1>Hello World</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam corporis accusantium nesciunt facilis doloribus
-                eligendi tenetur tempora maxime enim reiciendis perspiciatis debitis architecto, voluptas quis quia, veniam
-                voluptatem ducimus dolore.</p>
-            <a href="#" class="btn btn-primary btn-lg">Find out more!</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eum excepturi aliquid delectus quia aliquam,
+                maiores, doloremque doloribus architecto nisi sint reiciendis possimus quae odit sapiente saepe! Rerum cupiditate,
+                ea.
+            </p>
+            <a href="#projects" class="btn btn-primary">Learn More</a>
         </div>
     </div>
 
-    <section class="projects" id="projects">
+    <section id="projects">
         <div class="container">
             <h2 class="text-center">Projects</h2>
-            <div class="row app-container">
-                <div class="col-md-6 app-image"><img src="http://lorempixel.com/300/200" alt="" class="img-responsive"></div>
-                <div class="col-md-6">
-                    <h3>Clever App Title</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ratione dolorum, quisquam numquam.
-                        Minus, alias! Excepturi quam voluptas assumenda, totam quia blanditiis deleniti rerum expedita eaque
-                        perferendis unde distinctio. Et.</p>
-                    <a href="#" class="btn btn-primary">App</a>
-                    <a href="#" class="btn btn-primary">Source Code</a>
+            <div class="row app-row">
+                <div class="col-md-6 app-image-wrapper">
+                    <img class="img-responsive app-image" src="http://lorempixel.com/300/200" alt="">
+                </div>
+                <div class="col-md-6 app-description">
+                    <h3>Clever Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto magni, dolorem nulla aliquid atque.
+                        Ea officia facilis aspernatur, ullam suscipit nobis rem consequuntur repudiandae totam! In ipsum
+                        voluptates tempore magni!</p>
+                    <a href="#" class="btn btn-primary app-link">App</a><a href="#" class="btn btn-primary">Source Code</a>
                 </div>
             </div>
-            <div class="row app-container">
-                <div class="col-md-6 app-image"><img src="http://lorempixel.com/400/300" alt="" class="img-responsive"></div>
-                <div class="col-md-6">
-                    <h3>Clever App Title</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ratione dolorum, quisquam numquam.
-                        Minus, alias! Excepturi quam voluptas assumenda, totam quia blanditiis deleniti rerum expedita eaque
-                        perferendis unde distinctio. Et.</p>
-                    <a href="#" class="btn btn-primary">App</a>
-                    <a href="#" class="btn btn-primary">Source Code</a>
+            <div class="row app-row">
+                <div class="col-md-6 app-image-wrapper">
+                    <img class="img-responsive app-image" src="http://lorempixel.com/250/150" alt="">
+                </div>
+                <div class="col-md-6 app-description">
+                    <h3>Clever Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto magni, dolorem nulla aliquid atque.
+                        Ea officia facilis aspernatur, ullam suscipit nobis rem consequuntur repudiandae totam! In ipsum
+                        voluptates tempore magni!</p>
+                    <a href="#" class="btn btn-primary app-link">App</a><a href="#" class="btn btn-primary">Source Code</a>
                 </div>
             </div>
-            <div class="row app-container">
-                <div class="col-md-6 app-image"><img src="http://lorempixel.com/250/150" alt="" class="img-responsive"></div>
-                <div class="col-md-6">
-                    <h3>Clever App Title</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ratione dolorum, quisquam numquam.
-                        Minus, alias! Excepturi quam voluptas assumenda, totam quia blanditiis deleniti rerum expedita eaque
-                        perferendis unde distinctio. Et.</p>
-                    <a href="#" class="btn btn-primary">App</a>
-                    <a href="#" class="btn btn-primary">Source Code</a>
+            <div class="row app-row">
+                <div class="col-md-6 app-image-wrapper">
+                    <img class="img-responsive app-image" src="http://lorempixel.com/400/300" alt="">
+                </div>
+                <div class="col-md-6 app-description">
+                    <h3>Clever Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto magni, dolorem nulla aliquid atque.
+                        Ea officia facilis aspernatur, ullam suscipit nobis rem consequuntur repudiandae totam! In ipsum
+                        voluptates tempore magni!</p>
+                    <a href="#" class="btn btn-primary app-link">App</a><a href="#" class="btn btn-primary">Source Code</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="skills text-center" id="skills">
-        <h2>Skills</h2>
-        <img class="skill" src="images/html5.svg" alt="">
-        <img class="skill" src="images/css3.png" alt="">
-        <img src="images/js.png" alt="" class="skill">
-        <img src="images/reactjs.png" alt="" class="skill">
-        <img src="images/nodejs.png" alt="" class="skill">
-    </section>
-
-    <section class="contact text-center" id="contact">
-        <h2>Want to get in contact with me?</h2>
-        <p>E-Mail me @ someone@example.com</p>
-    </section>
-
-    <footer class="container-fluid">
-        <div class="social-icons text-center">
-            <a href="#"><img src="images/facebook.svg" alt="" class="social-icon"></a>
-            <a href="#"><img src="images/twitter.svg" alt="" class="social-icon"></a>
-            <a href="#"><img src="images/linkedin.svg" alt="" class="social-icon"></a>
-            <a href="#"><img src="images/github.svg" alt="" class="social-icon"></a>
+    <section id="skills">
+        <div class="container ">
+            <h2 class="text-center">Skills</h2>
+            <div class="skills-section">
+                <img class="tech-logo" src="images/html5.svg" alt="">
+                <img class="tech-logo" src="images/css3.png" alt="">
+                <img class="tech-logo" src="images/js.png" alt="">
+                <img class="tech-logo" src="images/reactjs.png" alt="">
+                <img class="tech-logo" src="images/nodejs.png" alt="">
+            </div>
         </div>
-        <p class="copyright text-center">&copy; 2017 Carson McKinstry</p>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="text-center">Contact Me</h2>
+            <p class="text-center">E-Mail me @ someone@example.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="social-icons">
+                <a href="#"><img src="images/facebook.svg" alt="" class="img-responsive social-icon"></a>
+                <a href="#"><img src="images/twitter.svg" alt="" class="img-responsive social-icon"></a>
+                <a href="#"><img src="images/linkedin.svg" alt="" class="img-responsive social-icon"></a>
+                <a href="#"><img src="images/github.svg" alt="" class="img-responsive social-icon"></a>
+            </div>
+            <p class="copyright text-center">&copy; 2017 Carson McKinstry</p>
+        </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>

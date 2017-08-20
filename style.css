@@ -8,52 +8,40 @@
   align-items: center;
 }
 
-.app-image .img-responsive {
-  height: 200px;
+.app-row {
+  margin: 36px;
 }
 
-.app-container {
-  margin: 36px 0;
+.app-image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .app-image {
+  height: 200px;
+}
+
+.app-link {
+  margin-right: 12px;
+}
+
+.skills-section {
   display: flex;
   justify-content: center;
-  align-items: center;
+}
+
+.tech-logo {
+  height: 80px;
+  margin: 24px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
 }
 
 .social-icon {
-  margin: 12px;
-  height: 36px;
-}
-
-.skills {
-  padding: 60px;
-}
-
-h2 {
-  margin: 36px 0;
-  font-size: 3em;
-}
-
-.skill {
-  height: 60px;
-  margin: 0 20px;
-}
-
-.contact {
-  padding: 36px;
-}
-
-.contact p {
-  font-size: 2em;
-}
-
-footer {
-  background-color: #f8f8f8;
-  padding: 26px;
-}
-
-footer p {
-  font-size: 1.75em;
+  height: 48px;
+  margin: 24px;
 }
